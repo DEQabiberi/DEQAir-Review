@@ -3,6 +3,7 @@ Develop functions to clean and visualize air quality data
 
 The expected flow is as follows:
 <ul>
+<li> In the next version allow for selection of the years by user.
 <li> Download hourly data from AirData  (2010-2019) into the data folder (using the download_airdata_hourly function, in the file with that name). </li>
 <li> Download and save the 2020 data from the AQI website or EnVista database as a csv. Right now this is manual.
 •	Create a dataframe of hourly data for each station. The get_station_data function returns a dataframe with all the years of data for the pollutant requested. It reads the feather file for Oregon sites for that pollutant. The feather files are created in the download step </li>
